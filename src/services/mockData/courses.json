@@ -1,0 +1,94 @@
+[
+  {
+    "Id": 1,
+    "name": "Introduction to Psychology",
+    "code": "PSY 101",
+    "semester": "Fall 2024",
+    "credits": 3,
+    "color": "#5b21b6",
+    "instructor": "Dr. Sarah Johnson",
+    "currentGrade": 92,
+    "gradeCategories": [
+      { "name": "Assignments", "weight": 40 },
+      { "name": "Exams", "weight": 35 },
+      { "name": "Participation", "weight": 15 },
+      { "name": "Final Project", "weight": 10 }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "Calculus I",
+    "code": "MATH 151",
+    "semester": "Fall 2024",
+    "credits": 4,
+    "color": "#dc2626",
+    "instructor": "Prof. Michael Chen",
+    "currentGrade": 87,
+    "gradeCategories": [
+      { "name": "Homework", "weight": 20 },
+      { "name": "Quizzes", "weight": 25 },
+      { "name": "Midterm Exams", "weight": 30 },
+      { "name": "Final Exam", "weight": 25 }
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "Computer Science Fundamentals",
+    "code": "CS 101",
+    "semester": "Fall 2024",
+    "credits": 3,
+    "color": "#16a34a",
+    "instructor": "Dr. Emily Rodriguez",
+    "currentGrade": 95,
+    "gradeCategories": [
+      { "name": "Programming Projects", "weight": 50 },
+      { "name": "Exams", "weight": 30 },
+      { "name": "Lab Assignments", "weight": 20 }
+    ]
+  },
+  {
+    "Id": 4,
+    "name": "English Composition",
+    "code": "ENG 101",
+    "semester": "Fall 2024",
+    "credits": 3,
+    "color": "#2563eb",
+    "instructor": "Prof. James Wilson",
+    "currentGrade": 89,
+    "gradeCategories": [
+      { "name": "Essays", "weight": 60 },
+      { "name": "Participation", "weight": 20 },
+      { "name": "Final Portfolio", "weight": 20 }
+    ]
+  },
+  {
+    "Id": 5,
+    "name": "Biology Laboratory",
+    "code": "BIO 102L",
+    "semester": "Fall 2024",
+    "credits": 2,
+    "color": "#ea580c",
+    "instructor": "Dr. Lisa Thompson",
+    "currentGrade": 91,
+    "gradeCategories": [
+      { "name": "Lab Reports", "weight": 70 },
+      { "name": "Practical Exams", "weight": 30 }
+    ]
+  },
+  {
+    "Id": 6,
+    "name": "World History",
+    "code": "HIST 150",
+    "semester": "Fall 2024",
+    "credits": 3,
+    "color": "#7c3aed",
+    "instructor": "Prof. Robert Davis",
+    "currentGrade": 85,
+    "gradeCategories": [
+      { "name": "Exams", "weight": 40 },
+      { "name": "Research Paper", "weight": 30 },
+      { "name": "Discussion Posts", "weight": 20 },
+      { "name": "Attendance", "weight": 10 }
+    ]
+  }
+]
