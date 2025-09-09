@@ -6,6 +6,7 @@ const Input = React.forwardRef(({
   type = "text",
   label,
   error,
+  multiline,
   ...props 
 }, ref) => {
   return (
