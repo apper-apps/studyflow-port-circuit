@@ -6,13 +6,14 @@ import Button from "@/components/atoms/Button";
 import ApperIcon from "@/components/ApperIcon";
 
 const CourseForm = ({ course, onSave, onCancel }) => {
-  const [formData, setFormData] = useState({
+const [formData, setFormData] = useState({
     name: course?.name || "",
     code: course?.code || "",
     instructor: course?.instructor || "",
     credits: course?.credits || 3,
     semester: course?.semester || "Fall 2024",
     color: course?.color || "#5b21b6",
+    details: course?.details || "",
     gradeCategories: course?.gradeCategories || [
       { name: "Assignments", weight: 40 },
       { name: "Exams", weight: 35 },
@@ -126,7 +127,7 @@ const CourseForm = ({ course, onSave, onCancel }) => {
             />
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <Select
               label="Semester"
               value={formData.semester}
@@ -160,6 +161,17 @@ const CourseForm = ({ course, onSave, onCancel }) => {
                 ))}
               </div>
             </div>
+          </div>
+
+          <div>
+            <Input
+              label="Details"
+              value={formData.details}
+              onChange={(e) => setFormData({ ...formData, details: e.target.value })}
+              placeholder="Additional course details, description, prerequisites..."
+              multiline
+              rows={4}
+            />
           </div>
 
           {/* Grade Categories */}
